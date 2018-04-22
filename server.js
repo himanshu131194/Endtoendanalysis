@@ -7,7 +7,7 @@ app.get('/create-test', (req ,res)=>{
     res.send("New Online Test Platform");
 });
 
-
+require('./routes/quesRoutes')(app);
 
 
 
